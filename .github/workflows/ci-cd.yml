@@ -1,0 +1,14 @@
+name: CI/CD Pipeline
+
+on: [push, pull_request]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Verificar archivos
+          run: |
+            echo "🔍️ Verificando archivos..."
+            ls -la
+            echo "◆◆ Pipeline ejecutado correctamente ◆◆"
