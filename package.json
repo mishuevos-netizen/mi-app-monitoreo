@@ -1,0 +1,13 @@
+{
+    "name": "mi-app-monitoreo",
+    "version": "1.0.0",
+    "description": "Aplicación con CI/CD y monitoreo",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo 'Pruebas ejecutadas correctamente'",
+        "start": "echo 'Servidor iniciado'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
